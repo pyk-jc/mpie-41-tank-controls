@@ -17,13 +17,15 @@ public class movement : MonoBehaviour
     {
         Transform t = gameObject.transform;
 
+        float steering = Input.GetAxis("Horizontal");
+        float turn = steering * turnSpeed * Time.deltaTime;
+        t.Rotate (0.0f, turn, 0.0f);
+
         float throttle = Input.GetAxis("Vertical");
         float movement = throttle * speed * Time.deltaTime;
         t.Translate (0.0f, 0.0f, movement);
 
-        float steering = Input.GetAxis("Horizontal");
-        float turn = steering * turnSpeed * Time.deltaTime;
-        t.Rotate (0.0f, turn, 0.0f);
+
 
     }
 }

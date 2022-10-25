@@ -374,25 +374,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2a291da6430eb4434bc2739e4581f768, type: 3}
---- !u!1 &1089677272 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 968602c72de4c40978033fc3435a5dfc, type: 3}
-  m_PrefabInstance: {fileID: 1364208172}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1089677276
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1089677272}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b79b43965a2724acf96cbf7f0d001145, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 50
-  turnSpeed: 50
 --- !u!1 &1345481133 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 2a291da6430eb4434bc2739e4581f768, type: 3}
@@ -403,48 +384,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2a291da6430eb4434bc2739e4581f768, type: 3}
   m_PrefabInstance: {fileID: 994566260}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1345481137
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1345481133}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b79b43965a2724acf96cbf7f0d001145, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 50
-  turnSpeed: 50
---- !u!114 &1345481138
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1345481133}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b79b43965a2724acf96cbf7f0d001145, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 50
-  turnSpeed: 50
---- !u!114 &1345481139
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1345481133}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b79b43965a2724acf96cbf7f0d001145, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 50
-  turnSpeed: 50
 --- !u!114 &1345481140
 MonoBehaviour:
   m_ObjectHideFlags: 0
